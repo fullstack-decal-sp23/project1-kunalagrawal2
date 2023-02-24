@@ -48,7 +48,6 @@ div {
     font-family: OCR A Std, monospace;
     display: inline-block;
     padding: 16px 19px;
-    /*border-radius: 50%; */
     color: #fff;
     font-size: 3rem;
     font-weight: 700;
@@ -59,23 +58,23 @@ nav {
     display: block;
 }
 nav ul {
-    list-style-type: none; /* Remove the default list styles */
-    display: flex; /* Enable Flexbox */
-    flex-direction: row; /* Arrange the navigation links horizontally */
-    justify-content: space-between; /* Position the navigation links */
+    list-style-type: none;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
     margin: 0;
     padding: 0;
   }
   
   nav li {
-    margin: 0 10px; /* Add some margin between the list items */
-    display: block; /* Make the list items behave like blocks */
+    margin: 0 10px; 
+    display: block; 
   }
   
   nav a {
-    display: block; /* Make the anchor tags behave like blocks */
+    display: block; 
     padding: 10px;
-    color: #fff; /* Set the text color of the navigation links */
+    color: #fff; 
     text-decoration: none; /* Remove the underline from the navigation links */
   }
 
@@ -119,6 +118,10 @@ header>nav>ul {
     width: 30px;
     height: 30px;
     object-fit: contain;
+}
+
+.gridItem:hover {
+    transform: scale(1.1);
 }
 
 .landing .landing__main {
@@ -168,9 +171,9 @@ img {
 
 nav button {
     background: none;
-    display: block; /* Make the anchor tags behave like blocks */
+    display: block; 
     padding: 10px;
-    color: #fff; /* Set the text color of the navigation links */
-    text-decoration: none; /* Remove the underline from the navigation links */
+    color: #fff;
+    text-decoration: none;
 }
 
