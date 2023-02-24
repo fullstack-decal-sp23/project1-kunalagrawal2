@@ -101,7 +101,7 @@
 </div>
 </div>
         <h1>About me</h1>
-        <p id="hero-text">Hi! I'm a student studying Computer Science at University of California, Berkeley. I'm interested in learning new things.</p>
+        <h2 id="hero-text">Hi! I'm a student studying Computer Science at University of California, Berkeley. I'm interested in learning new things.</p>
         <h1>Work</h1>
         <h3>Clubs</h3>
         <ul>
@@ -113,6 +113,27 @@
             </li>
         </ul>
         <!--include links-->
+        <h1>Form</h1>
+        <h4>Submit Interest Form</h4>
+        <h5>I will try to get back to you within 5 business days!</h5>
+        <h6>Otherwise, contact me through other means</h6>
+        <form action="/submit-form" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button onclick="myFunc();" type="submit">Submit</button>
+            <script>
+                function myFunc() {
+                    alert("Thank you!");
+                }
+            </script>
+          </form>
     
 </main>
 </body>
