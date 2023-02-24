@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta name="author" content="Kunal Agrawal">
+        <meta name="description" content="Kunal Agrawal">
+        <title>Kunal Agrawal</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="header container">
+            <div>
+                <a class="header__tag" href="./">Kunal Agrawal</a>
+            </div>
+            <div class="header__spacer"></div>
+            <nav>
+                <ul>
+                    <li>
+                        <!--a href="/">Home</a-->
+                        <button onclick="window.location.href='./';">Home</button>
+                    </li>
+                    <li>
+                        <!--a href="/blog">About</a-->
+                        <button onclick="scrolldiv()">About</button>
+                    </li>
+                    <li>
+                        <button onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'">Resume</button>
+                    </li>
+                    <li>
+                        <!--a href="" target="_blank" rel="noopener noreferrer">Contact</a-->
+                        <button onclick="scrolldiv()"">Contact</button>
+                        <script>
+                            function scrolldiv() {
+                                var elem = document.getElementById("socialmedias");
+                                elem.scrollIntoView();
+                            }
+                        </script>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+    
+        <div class="section__inner landing">
+        <div class = "profile_img">
+            <img src="./kunalagrawal.jpg" class = "profile_img">
+        </div>
+        <div class="landing__main">
+        <ul class="landing__socialMedias" id="socialmedias">
+            <li class = "gridItem">
+                <a href="https://www.linkedin.com/in/kunal-agrawal-697824203/" target="_blank" rel="noopener noreferrer" style="transform: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <title>LinkedIn</title>
+                        <path d="M0 0v24h24V0H0zm8 19H5V8h3v11zM6.5 6.7c-1 0-1.8-.8-1.8-1.8s.8-1.8 1.8-1.8S8.2 4 8.2 5s-.7 1.7-1.7 1.7zM20 19h-3v-5.6c0-3.4-4-3.1-4 0V19h-3V8h3v1.8c1.4-2.6 7-2.8 7 2.5V19z" fill="#2867b2">
+                        </path>
+                    </svg>
+                </a>
+            </li>
+            <li class = "gridItem">
+                <a href="https://github.com/kunalagrawal2" target="_blank" rel="noopener noreferrer" style="transform: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.6 31.8">
+                        <title>GitHub</title>
+                        <path d="M16.3 0C7.3 0 0 7.3 0 16.3c0 7.2 4.7 13.3 11.1 15.5.8.1 1.1-.4 1.1-.8v-2.8c-4.5 1-5.5-2.2-5.5-2.2-.7-1.9-1.8-2.4-1.8-2.4-1.5-1 .1-1 .1-1 1.6.1 2.5 1.7 2.5 1.7 1.5 2.5 3.8 1.8 4.7 1.4.1-1.1.6-1.8 1-2.2-3.6-.4-7.4-1.8-7.4-8.1 0-1.8.6-3.2 1.7-4.4-.1-.3-.7-2 .2-4.2 0 0 1.4-.4 4.5 1.7 1.3-.4 2.7-.5 4.1-.5 1.4 0 2.8.2 4.1.5 3.1-2.1 4.5-1.7 4.5-1.7.9 2.2.3 3.9.2 4.3 1 1.1 1.7 2.6 1.7 4.4 0 6.3-3.8 7.6-7.4 8 .6.5 1.1 1.5 1.1 3V31c0 .4.3.9 1.1.8 6.5-2.2 11.1-8.3 11.1-15.5C32.6 7.3 25.3 0 16.3 0z" fill-rule="evenodd" clip-rule="evenodd" fill="#191717">
+
+                </path>
+            </svg>
+        </a>
+    </li>
+    <li class = "gridItem">
+        <a href="https://www.instagram.com/kunalagrawal_/" target="_blank" rel="noopener noreferrer" style="transform: none;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 96 96">
+            <title>Instagram</title>
+            <defs>
+                <path id="instagram_svg__a" d="M48 0C35 0 33.3.1 28.2.3c-5.1.2-8.6 1-11.7 2.2C13.3 3.7 10.7 5.4 8 8c-2.7 2.7-4.3 5.3-5.5 8.5C1.3 19.6.5 23 .3 28.2.1 33.3 0 35 0 48s.1 14.7.3 19.8c.2 5.1 1 8.6 2.2 11.7C3.7 82.7 5.4 85.3 8 88c2.7 2.7 5.3 4.3 8.5 5.5 3.1 1.2 6.5 2 11.7 2.2 5.1.2 6.8.3 19.8.3s14.7-.1 19.8-.3c5.1-.2 8.6-1 11.7-2.2 3.2-1.2 5.8-2.9 8.5-5.5 2.7-2.7 4.3-5.3 5.5-8.5 1.2-3.1 2-6.5 2.2-11.7.2-5.1.3-6.8.3-19.8s-.1-14.7-.3-19.8c-.2-5.1-1.1-8.6-2.2-11.7-1.2-3.2-2.9-5.8-5.5-8.5-2.7-2.7-5.3-4.3-8.5-5.5-3.1-1.2-6.6-2-11.7-2.2C62.7.1 61 0 48 0zm-4.3 8.7H48c12.8 0 14.3 0 19.4.3 4.7.2 7.2 1 8.9 1.7 2.2.9 3.8 1.9 5.5 3.6 1.7 1.7 2.7 3.3 3.6 5.5.7 1.7 1.4 4.2 1.7 8.9.2 5.1.3 6.6.3 19.4s-.1 14.3-.3 19.4c-.2 4.7-1 7.2-1.7 8.9-.9 2.2-1.9 3.8-3.6 5.5-1.7 1.7-3.3 2.7-5.5 3.6-1.7.7-4.2 1.4-8.9 1.7-5.1.2-6.6.3-19.4.3-12.8 0-14.3-.1-19.4-.3-4.7-.2-7.2-1-8.9-1.7-2.2-.9-3.8-1.9-5.5-3.6-1.7-1.7-2.7-3.3-3.6-5.5-.7-1.7-1.4-4.2-1.7-8.9-.2-5.2-.2-6.7-.2-19.5s0-14.3.3-19.4c.2-4.7 1-7.2 1.7-8.9.9-2.2 1.9-3.8 3.6-5.5 1.7-1.7 3.3-2.7 5.5-3.6 1.7-.7 4.2-1.4 8.9-1.7 4.3-.2 6.1-.3 15-.2zm29.9 7.9c-3.2 0-5.8 2.6-5.8 5.8 0 3.2 2.6 5.8 5.8 5.8s5.8-2.6 5.8-5.8-2.6-5.8-5.8-5.8zM48 23.4c-13.6 0-24.7 11-24.7 24.6s11 24.6 24.7 24.6c13.6 0 24.6-11 24.6-24.6S61.6 23.4 48 23.4zm0 8.6c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16 7.2-16 16-16z">
+
+                </path>
+            </defs>
+            <clipPath id="instagram_svg__b"><use xlink:href="#instagram_svg__a" overflow="visible"></use></clipPath><g clip-path="url(#instagram_svg__b)"><radialGradient id="instagram_svg__c" cx="-991.221" cy="-473.388" r="65" gradientTransform="matrix(0 -1.982 -1.8439 0 -855.34 -1841.58)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"></stop><stop offset="0.1" stop-color="#fd5"></stop><stop offset="0.5" stop-color="#ff543e"></stop><stop offset="1" stop-color="#c837ab"></stop></radialGradient><path d="M48-17c-27.1 0-35.1 0-36.6.2-5.6.5-9 1.3-12.8 3.2-2.9 1.4-5.2 3.1-7.5 5.5-4.1 4.3-6.6 9.5-7.5 15.8-.4 3-.6 3.7-.6 19.2V48c0 27.1 0 35 .2 36.6.4 5.4 1.3 8.8 3.1 12.6 3.4 7.1 10 12.5 17.8 14.5 2.7.7 5.6 1.1 9.4 1.2 1.6.1 18 .1 34.4.1s32.8 0 34.4-.1c4.4-.2 7-.6 9.8-1.3 7.8-2 14.2-7.3 17.8-14.5 1.8-3.6 2.7-7.2 3.1-12.3.1-1.1.1-19 .1-36.8 0-17.8 0-35.7-.1-36.8-.4-5.2-1.3-8.7-3.1-12.4-1.5-3-3.2-5.3-5.6-7.6-4.3-4.1-9.6-6.6-15.8-7.5-3-.4-3.6-.6-19.2-.6H48z" fill="url(#instagram_svg__c)"></path><radialGradient id="instagram_svg__d" cx="-41.922" cy="329.829" r="65" gradientTransform="matrix(.1739 .8687 3.5818 -.7172 -1212.869 265.33)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3771c8"></stop><stop offset="0.128" stop-color="#3771c8"></stop><stop offset="1" stop-color="#60f" stop-opacity="0"></stop></radialGradient><path d="M48-17c-27.1 0-35.1 0-36.6.2-5.6.5-9 1.3-12.8 3.2-2.9 1.4-5.2 3.1-7.5 5.5-4.1 4.3-6.6 9.5-7.5 15.8-.4 3-.6 3.7-.6 19.2V48c0 27.1 0 35 .2 36.6.4 5.4 1.3 8.8 3.1 12.6 3.4 7.1 10 12.5 17.8 14.5 2.7.7 5.6 1.1 9.4 1.2 1.6.1 18 .1 34.4.1s32.8 0 34.4-.1c4.4-.2 7-.6 9.8-1.3 7.8-2 14.2-7.3 17.8-14.5 1.8-3.6 2.7-7.2 3.1-12.3.1-1.1.1-19 .1-36.8 0-17.8 0-35.7-.1-36.8-.4-5.2-1.3-8.7-3.1-12.4-1.5-3-3.2-5.3-5.6-7.6-4.3-4.1-9.6-6.6-15.8-7.5-3-.4-3.6-.6-19.2-.6H48z" fill="url(#instagram_svg__d)">
+            </path>
+        </g>
+    </svg>
+</a>
+</li>
+    <li class = "gridItem">
+        <a href="mailto:kunal.agrawal@berkeley.edu" target="_blank" rel="noopener noreferrer" style="transform: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <title>Email</title>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+            </svg> 
+        </a>
+    </li>
+    <li class = "gridItem">
+        <a href="tel:5103657229" target="_blank" rel="noopener noreferrer" style="transform: none;">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+          </svg>
+        </a>
+    </li>
+</ul>
+</div>
+</div>
+<!--/div -->
+        <h1>About me</h1>
+        <p id="hero-text">Hi! I'm a student studying Computer Science at University of California, Berkeley. I'm interested in learning new things.</p>
+        <h1>Work</h1>
+        <h3>Clubs</h3>
+        <ul>
+            <li>
+                <a href="https://csmentors.berkeley.edu/#/bios/cs61b">Computer Science Mentors</a>
+            </li>
+            <li>
+            <a href="https://www.capclubberkeley.com/team">Cinematic Arts and Production Club at Berkeley</a>
+            </li>
+        </ul>
+        <!--include links-->
+    
+</main>
+</body>
+    
+
+
+</html>
